@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF8">
+        <title>Pedido de pizza</title>
+        <h1>PARA PEDIR SU PIZZA RELLENE EL FORMULARIO</h1>
+    </head>
+    <body>
+        <form>
+            <fieldset style="width: 500px;">
+                <legend>Ingredientes base</legend>
+            <input type="checkbox" id="ingrediente1" name="ingrediente1" value="Queso">
+            <label for="ingrediente1"> Queso</label><br>
+            <input type="checkbox" id="ingrediente2" name="ingrediente2" value="Tomate">
+            <label for="ingrediente2"> Tomate</label><br>
+            <input type="checkbox" id="ingrediente3" name="ingrediente3" value="Orégano">
+            <label for="ingrediente3"> Orégano</label>
+        </fieldset>
+        <fieldset style="width: 500px;">
+            <legend>Tamaño de pizza</legend>
+            <input type="radio" id="Pequeña" name="Tamaño" value="Pequeña">
+            <label for="Pequeña">Pequeña</label><br>
+            <input type="radio" id="Mediana" name="Tamaño" value="Mediana">
+            <label for="Mediana">Mediana</label><br>
+            <input type="radio" id="Familiar" name="Tamaño" value="Familiar">
+            <label for="Familiar">Familiar</label><br>
+        </fieldset>
+        <fieldset style="width: 500px;">
+            <legend>Datos de entrega</legend>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" required><br>
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" id="Apellidos" name="Apellidos"><br>
+            <label for="Domicilio">Dirección:</label>
+            <input type="text" id="Domicilio" name="Domicilio" required><br>
+            <label for="CP">Código postal:</label>
+            <input type="number" id="CP" name="CP"><br>
+            <label for="tlf">Teléfono:</label>
+            <input type="tel" id="tlf" name="tlf" maxlength="9" required><br>
+               <p>Más ingredientes/ especificaciones sobre su pizza(cada ingrediente adicional cuesta 0,50€)</p>
+               <textarea style="width: 300px; height: 200px;" >
+
+               </textarea>
+        </fieldset>
+        <fieldset style="width: 500px;">
+            <legend>Método de pago</legend>
+                <select size="1">
+                    <option value="Tarjeta">Tarjeta</option>
+                    <option value="Contrareembolso">Contrareembolso</option>
+                    <option value="PayPal">Paypal</option>
+                </select>
+        </fieldset>
+        <p><input type="submit" value="Enviar"> <input type="reset" value="Reiniciar"></p>
+          </form>
+    </body>
+</html>

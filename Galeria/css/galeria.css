@@ -1,0 +1,16 @@
+#div1, #div2, #div3{
+    float: left;
+    width: 33,33%;
+    margin: 7px;
+}
+#div7{
+    clear: both;
+}
+#div4, #div5, #div6{
+    float: left;
+    width: 33,33%;
+    margin: 7px;
+}
+p{
+    text-align: center;
+}

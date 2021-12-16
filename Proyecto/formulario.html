@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <title>e-sports</title>
+    <link rel="stylesheet" href="css/css_inicio.css">
+    
+</head>
+<body>
+    <header>
+        <img src="img/logo.jpg" alt="Logo">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="decripcion.html">Quienes somos</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="tabla.html">Juegos disponibles</a></li>
+            <li><a href="formulario.html">Contacta con nosotros</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <h1></h1>
+        <div>
+            <p>INFORMACION DE CONTACTO<br><br>e-sportsGames@gmail.com<br><br>Telefono: +34 666 123 456</p>
+        </div>
+    </section>
+    <section>
+        <form>
+            <fieldset>
+                <p>ENVIA UN MENSAJE</p><br><br>
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="lname">Apellidos:</label><br>
+                <input type="text" id="lname" name="lname" required><br>
+                <label for="correo">Correo electronico:</label><br>
+                <input type="email" id="correo" name="correo" ><br>
+                <label for="tel">Telefono:</label><br>
+                <input type="tel" id="tel" name="tel" maxlength="9"><br><br>
+                <p>Mensaje</p>
+                <textarea rows="22" cols="45">
+                </textarea><br><br>
+                <input type="checkbox" id="terminos" name="terminos" value="¿Acepta nuestros términos y condiciones?" required>
+                <label for="terminos"> ¿Acepta nuestros términos y condiciones?</label><br>
+                <input type="checkbox" id="ofertas" name="ofertas" value="¿Quiere que le enviemos correos con nuevas ofertas y actualizaciones?">
+                <label for="ofertas"> ¿Quiere que le enviemos correos con nuevas ofertas y actualizaciones?</label><br><br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Reiniciar</button><br><br>
+            </fieldset>
+        </form>
+    </section>
+    <br>
+    <footer id="footer1">
+        <div>
+            <p>©2020-2021 E-sports Europa SL, All Rights Reserved<br>
+                Camino Bajo de Huetor, Granada 18008
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #fff;
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 4px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 240px;
+}
+.item1{
+        background-image: url(img/descarga.jfif);  
+        background-size: cover; 
+}
+.item2{
+    background-image: url(img/descarga\ \(1\).jfif);
+    background-size: cover;
+}
+.item3{
+    background-image: url(img/descarga\ \(2\).jfif);
+    background-size: cover;
+}
+.item4{
+    background-image: url(img/descarga\ \(3\).jfif);
+    background-size: cover;
+}
+.item5{
+    background-image: url(img/descarga\ \(4\).jfif);
+    background-size: cover;
+}
+.item6{
+    background-image: url(img/descarga\ \(5\).jfif);
+    background-size: cover;
+}
+.item7{
+    background-image: url(img/descarga\ \(6\).jfif);
+    background-size: cover;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 90%;
+}
+
+.container {
+    padding: 2px 16px; 
+}
+
+
